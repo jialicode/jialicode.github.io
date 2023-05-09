@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>归处</title>
+  <icon>https://www.gravatar.com/avatar/a462959241162f73613c107c4190cea0</icon>
+  
+  <link href="http://jialicode.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://jialicode.github.io/"/>
+  <updated>2023-05-09T03:05:25.571Z</updated>
+  <id>http://jialicode.github.io/</id>
+  
+  <author>
+    <name>Jiali Zhou</name>
+    <email>523913994@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://jialicode.github.io/coding/hello-world/"/>
+    <id>http://jialicode.github.io/coding/hello-world/</id>
+    <published>2023-05-09T02:52:27.555Z</published>
+    <updated>2023-05-09T03:05:25.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="coding" scheme="http://jialicode.github.io/categories/coding/"/>
+    
+    
+    <category term="js" scheme="http://jialicode.github.io/tags/js/"/>
+    
+    <category term="test1" scheme="http://jialicode.github.io/tags/test1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://jialicode.github.io/coding2/hello-world2/"/>
+    <id>http://jialicode.github.io/coding2/hello-world2/</id>
+    <published>2023-05-09T02:52:27.555Z</published>
+    <updated>2023-05-09T03:05:54.280Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="coding2" scheme="http://jialicode.github.io/categories/coding2/"/>
+    
+    
+    <category term="js" scheme="http://jialicode.github.io/tags/js/"/>
+    
+    <category term="test1" scheme="http://jialicode.github.io/tags/test1/"/>
+    
+    <category term="test2" scheme="http://jialicode.github.io/tags/test2/"/>
+    
+  </entry>
+  
+</feed>
