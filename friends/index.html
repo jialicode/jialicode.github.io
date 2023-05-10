@@ -60,16 +60,6 @@
     <ul id="friends_link">
         
         <li class="friends_li">
-            <a href="https://github.com/jialicode" target="_blank" class="search-title"
-                >
-                
-                <img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230509215209.png">
-                
-                GitHub
-            </a>
-        </li>
-        
-        <li class="friends_li">
             <a href="https://www.baidu.com" target="_blank" class="search-title"
                 >
                 
@@ -90,12 +80,32 @@
         </li>
         
         <li class="friends_li">
+            <a href="https://github.com/jialicode" target="_blank" class="search-title"
+                >
+                
+                <img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230509215209.png">
+                
+                GitHub
+            </a>
+        </li>
+        
+        <li class="friends_li">
             <a href="https://console.leancloud.cn/" target="_blank" class="search-title"
                 >
                 
                 <img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230509215407.png">
                 
                 leancloud
+            </a>
+        </li>
+        
+        <li class="friends_li">
+            <a href="https://markdown.com.cn/basic-syntax/" target="_blank" class="search-title"
+                >
+                
+                <i class="ri-user-fill"></i>
+                
+                markdown
             </a>
         </li>
         
@@ -166,27 +176,57 @@
   <ul class="nav nav-main">
     
     <li class="nav-item">
+      <!-- 添加代码 -->
       <a class="nav-item-link" href="/">主页</a>
+        
+      <!-- 结束 -->
     </li>
     
     <li class="nav-item">
+      <!-- 添加代码 -->
+      <a class="nav-item-link" href="/categories/coding">编程</a>
+        
+      <!-- 结束 -->
+    </li>
+    
+    <li class="nav-item">
+      <!-- 添加代码 -->
+      <a class="nav-item-link" href="/categories/finance">金融</a>
+        
+      <!-- 结束 -->
+    </li>
+    
+    <li class="nav-item">
+      <!-- 添加代码 -->
+      <a class="nav-item-link" href="/categories/others">随笔</a>
+        
+      <!-- 结束 -->
+    </li>
+    
+    <li class="nav-item">
+      <!-- 添加代码 -->
       <a class="nav-item-link" href="/archives">归档</a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <small><a class="nav-item-link" href="/categories">分类</a></small>
+              </li>
+            
+              <li>
+                <small><a class="nav-item-link" href="/tags">标签</a></small>
+              </li>
+            
+          </ul>
+        
+      <!-- 结束 -->
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags">标签</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
+      <!-- 添加代码 -->
       <a class="nav-item-link" href="/about">关于我</a>
+        
+      <!-- 结束 -->
     </li>
     
   </ul>
@@ -213,6 +253,37 @@
   <div id="local-search-result" class="local-search-result"></div>
 </div>
 </div>
+
+<style>
+.nav-main li ul{
+  display: none;
+}
+.nav-main li:hover ul{
+  display: block;
+}
+.sub-menu{
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  width: 8rem;
+  z-index: 1000;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 40px -8px rgba(0, 0, 0, 0.5);
+  -webkit-animation: fadeInUp .3s .1s ease both;
+  list-style: none;
+}
+.nav-main li ul::before{
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+</style>
     </aside>
     <div id="mask"></div>
 

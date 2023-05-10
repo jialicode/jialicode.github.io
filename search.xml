@@ -1,54 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/coding2/hello-world2/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>coding2</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-        <tag>test1</tag>
-        <tag>test2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/coding/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>关于创建个人站的那些事</title>
+    <url>/2023-05-10-starter/</url>
+    <content><![CDATA[<blockquote>
+<p>之前一直有想建个站的想法，曾经买过三年腾讯云，配置复杂，最后闲置了白白浪费钱。<br>偶然发现了竟然还有GithubPage这种免费羊毛<br>虽然无后端，但本着羊毛不薅白不薅的想法，搭一个Blog站来记录自己的人生经历也是合适的。<br>技术栈：github + hexo + markdown，主题选的Ayer。</p>
+</blockquote>
+<h3 id="教程链接："><a href="#教程链接：" class="headerlink" title="教程链接："></a>教程链接：</h3><p><a href="https://www.jianshu.com/p/189fd945f38f/">注册github并搭建hexo个站</a></p>
+<p><a href="https://hexo.io/zh-cn/docs/">hexo官方网站</a></p>
+<p><a href="https://shen-yu.gitee.io/2019/ayer/">Ayer主题中文介绍</a></p>
+<p><a href="https://markdown.com.cn/basic-syntax/links.html">markdown语法</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/532669042">github+picGo图床插件</a>  记得用 cdn.jsdelivr.net&#x2F;gh&#x2F;用户名&#x2F;仓库名@分支名 来加速</p>
+<p><a href="https://blog.justlovesmile.top/posts/14357.html?time=1683688044281">如何添加二级菜单</a></p>
+<p><a href="https://www.cnblogs.com/codebook/p/10312965.html">如何添加新菜单并将文章归类</a></p>
+<h3 id="我遇到的第一个坑"><a href="#我遇到的第一个坑" class="headerlink" title="我遇到的第一个坑"></a>我遇到的第一个坑</h3><p>将hexo主题更改为ayer的时候，用的npm语句安装的。安装完之后要把node_modules里的hexo-theme-ayer复制到theme里，并重命名为ayer<br>如已有_config.ayer.yml，需将theme&#x2F;ayer&#x2F;_config.yml 删除，否则设置容易混乱。</p>
+<h3 id="我遇到的第二个坑"><a href="#我遇到的第二个坑" class="headerlink" title="我遇到的第二个坑"></a>我遇到的第二个坑</h3><p>修改网站配置时要先hexo clean，再hexo g<br>因为hexo g 并不是全量重新生成并覆盖，只会增量覆盖。<br>我就是没有hexo clean，导致替换图片（名称不变），一直替换失败，找了很久才发现是这个问题。</p>
+<h3 id="我遇到的第三个坑"><a href="#我遇到的第三个坑" class="headerlink" title="我遇到的第三个坑"></a>我遇到的第三个坑</h3><p>将hexo g 生成的public文件夹拷贝时使用scp语句，一定要使用 scp -r public&#x2F;* ..&#x2F;jialicode.github.io&#x2F;<br>-r 非常非常重要！！</p>
 ]]></content>
       <categories>
         <category>coding</category>
       </categories>
       <tags>
-        <tag>js</tag>
-        <tag>test1</tag>
+        <tag>hexo</tag>
+        <tag>github</tag>
+        <tag>ayer</tag>
       </tags>
   </entry>
 </search>

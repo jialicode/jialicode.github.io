@@ -6,7 +6,7 @@
   <link href="http://jialicode.github.io/atom.xml" rel="self"/>
   
   <link href="http://jialicode.github.io/"/>
-  <updated>2023-05-09T03:05:54.000Z</updated>
+  <updated>2023-05-10T03:38:49.803Z</updated>
   <id>http://jialicode.github.io/</id>
   
   <author>
@@ -17,47 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://jialicode.github.io/coding2/hello-world2/"/>
-    <id>http://jialicode.github.io/coding2/hello-world2/</id>
-    <published>2023-05-09T03:05:54.000Z</published>
-    <updated>2023-05-09T03:05:54.000Z</updated>
+    <title>关于创建个人站的那些事</title>
+    <link href="http://jialicode.github.io/2023-05-10-starter/"/>
+    <id>http://jialicode.github.io/2023-05-10-starter/</id>
+    <published>2023-05-10T02:20:00.000Z</published>
+    <updated>2023-05-10T03:38:49.803Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="coding2" scheme="http://jialicode.github.io/categories/coding2/"/>
-    
-    
-    <category term="js" scheme="http://jialicode.github.io/tags/js/"/>
-    
-    <category term="test1" scheme="http://jialicode.github.io/tags/test1/"/>
-    
-    <category term="test2" scheme="http://jialicode.github.io/tags/test2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://jialicode.github.io/coding/hello-world/"/>
-    <id>http://jialicode.github.io/coding/hello-world/</id>
-    <published>2023-05-09T03:05:24.000Z</published>
-    <updated>2023-05-09T03:05:24.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;之前一直有想建个站的想法，曾经买过三年腾讯云，配置复杂，最后闲置了白白浪费钱。&lt;br&gt;偶然发现了竟然还有GithubPage这种免费羊毛&lt;br&gt;虽然无后端，但本着羊毛不薅白不薅的想法，搭一个Blog站来记录自己的人生经历也是合适的。&lt;br&gt;技术栈：</summary>
         
       
     
@@ -66,9 +38,11 @@
     <category term="coding" scheme="http://jialicode.github.io/categories/coding/"/>
     
     
-    <category term="js" scheme="http://jialicode.github.io/tags/js/"/>
+    <category term="hexo" scheme="http://jialicode.github.io/tags/hexo/"/>
     
-    <category term="test1" scheme="http://jialicode.github.io/tags/test1/"/>
+    <category term="github" scheme="http://jialicode.github.io/tags/github/"/>
+    
+    <category term="ayer" scheme="http://jialicode.github.io/tags/ayer/"/>
     
   </entry>
   

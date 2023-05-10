@@ -76,10 +76,13 @@
        
     <div class="article-entry" itemprop="articleBody">
        
-  <p>一个定居在中国最南小岛上的银行程序员，欢迎交流～</p>
+  <blockquote>
+<p>一个来自广西的小镇做题家，WHU本硕毕业。<br>毕业后成为了新海南人，目前是小岛上的一名银行程序员。<br>在职宝妈，我女儿超可爱的～<br>汉服、bjd、switch、插画<br>欢迎来找我玩吖💗</p>
+</blockquote>
 <p>姓名： 周佳丽</p>
 <p>出生年月：1992.04（白羊座）</p>
-<p>邮箱：<a href="mailto:&#122;&#104;&#x6f;&#x75;&#x6a;&#105;&#x61;&#108;&#105;&#x30;&#52;&#x31;&#49;&#x40;&#x71;&#113;&#46;&#99;&#111;&#x6d;">&#122;&#104;&#x6f;&#x75;&#x6a;&#105;&#x61;&#108;&#105;&#x30;&#52;&#x31;&#49;&#x40;&#x71;&#113;&#46;&#99;&#111;&#x6d;</a></p>
+<p>邮箱：<a href="mailto:&#x7a;&#x68;&#x6f;&#117;&#106;&#105;&#97;&#108;&#105;&#48;&#52;&#x31;&#49;&#64;&#x71;&#x71;&#46;&#99;&#111;&#109;">&#x7a;&#x68;&#x6f;&#117;&#106;&#105;&#97;&#108;&#105;&#48;&#52;&#x31;&#49;&#64;&#x71;&#x71;&#46;&#99;&#111;&#109;</a></p>
+<p>微信： _zhoujiali</p>
  
       <!-- reward -->
       
@@ -276,27 +279,57 @@
   <ul class="nav nav-main">
     
     <li class="nav-item">
+      <!-- 添加代码 -->
       <a class="nav-item-link" href="/">主页</a>
+        
+      <!-- 结束 -->
     </li>
     
     <li class="nav-item">
+      <!-- 添加代码 -->
+      <a class="nav-item-link" href="/categories/coding">编程</a>
+        
+      <!-- 结束 -->
+    </li>
+    
+    <li class="nav-item">
+      <!-- 添加代码 -->
+      <a class="nav-item-link" href="/categories/finance">金融</a>
+        
+      <!-- 结束 -->
+    </li>
+    
+    <li class="nav-item">
+      <!-- 添加代码 -->
+      <a class="nav-item-link" href="/categories/others">随笔</a>
+        
+      <!-- 结束 -->
+    </li>
+    
+    <li class="nav-item">
+      <!-- 添加代码 -->
       <a class="nav-item-link" href="/archives">归档</a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <small><a class="nav-item-link" href="/categories">分类</a></small>
+              </li>
+            
+              <li>
+                <small><a class="nav-item-link" href="/tags">标签</a></small>
+              </li>
+            
+          </ul>
+        
+      <!-- 结束 -->
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags">标签</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
+      <!-- 添加代码 -->
       <a class="nav-item-link" href="/about">关于我</a>
+        
+      <!-- 结束 -->
     </li>
     
   </ul>
@@ -323,6 +356,37 @@
   <div id="local-search-result" class="local-search-result"></div>
 </div>
 </div>
+
+<style>
+.nav-main li ul{
+  display: none;
+}
+.nav-main li:hover ul{
+  display: block;
+}
+.sub-menu{
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  width: 8rem;
+  z-index: 1000;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 40px -8px rgba(0, 0, 0, 0.5);
+  -webkit-animation: fadeInUp .3s .1s ease both;
+  list-style: none;
+}
+.nav-main li ul::before{
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+</style>
     </aside>
     <div id="mask"></div>
 
