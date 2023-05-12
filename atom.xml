@@ -6,7 +6,7 @@
   <link href="http://jialicode.github.io/atom.xml" rel="self"/>
   
   <link href="http://jialicode.github.io/"/>
-  <updated>2023-05-12T02:03:12.169Z</updated>
+  <updated>2023-05-12T03:14:41.211Z</updated>
   <id>http://jialicode.github.io/</id>
   
   <author>
@@ -17,9 +17,58 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>银行从业资格-法律法规初级</title>
+    <link href="http://jialicode.github.io/2023/05/%E9%93%B6%E4%BB%8E-%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/"/>
+    <id>http://jialicode.github.io/2023/05/%E9%93%B6%E4%BB%8E-%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/</id>
+    <published>2023-05-12T03:20:00.000Z</published>
+    <updated>2023-05-12T03:14:41.211Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;第一部分-经济金融基础&quot;&gt;&lt;a href=&quot;#第一部分-经济金融基础&quot; class=&quot;headerlink&quot; title=&quot;第一部分 经济金融基础&quot;&gt;&lt;/a&gt;第一部分 经济金融基础&lt;/h1&gt;&lt;h2 id=&quot;一、经济基础知识&quot;&gt;&lt;a href=&quot;#一、经济基础知识&quot; class=&quot;headerlink&quot; title=&quot;一、经济基础知识&quot;&gt;&lt;/a&gt;一、经济基础知识&lt;/h2&gt;&lt;h3 id=&quot;宏观经济分析&quot;&gt;&lt;a href=&quot;#宏观经济分析&quot; class=&quot;headerlink&quot; title=&quot;宏观经济分析&quot;&gt;&lt;/a&gt;宏观经济分析&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;发展目标&lt;ul&gt;
+&lt;li&gt;经济增长：一个特定时期内一国或地区经济支出和居民收入大增长。——国内生产总值GDP：一定时期内国土范围内所有常住居民（本国居民和国外居民）生产活动的最终成果，它是反映经济发展水平变化程度的动态指标。三种表现形态：价值形态、收入形态和产品形态，在实际核算中对应三种计算方法，即生产法、收入法和支出法。</summary>
+    
+    
+    
+    <category term="finance" scheme="http://jialicode.github.io/categories/finance/"/>
+    
+    
+    <category term="银行从业" scheme="http://jialicode.github.io/tags/%E9%93%B6%E8%A1%8C%E4%BB%8E%E4%B8%9A/"/>
+    
+    <category term="法律法规" scheme="http://jialicode.github.io/tags/%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>银行从业资格-个人理财初级</title>
+    <link href="http://jialicode.github.io/2023/05/%E9%93%B6%E4%BB%8E-%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
+    <id>http://jialicode.github.io/2023/05/%E9%93%B6%E4%BB%8E-%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/</id>
+    <published>2023-05-12T02:20:00.000Z</published>
+    <updated>2023-05-12T03:14:05.185Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;机考120分钟。先做判断题15题15分，再做单选题90题45分，最后做多选题40题40分&lt;/p&gt;
+&lt;h1 id=&quot;第一章-个人理财概述-5分&quot;&gt;&lt;a href=&quot;#第一章-个人理财概述-5分&quot; class=&quot;headerlink&quot; title=&quot;第一章 个人理财概述 5分&quot;&gt;&lt;/a&gt;第一章 个人理财概述 5分&lt;/h1&gt;&lt;h2 id=&quot;1、个人理财相关定义&quot;&gt;&lt;a href=&quot;#1、个人理财相关定义&quot; class=&quot;headerlink&quot; title=&quot;1、个人理财相关定义&quot;&gt;&lt;/a&gt;1、个人理财相关定义&lt;/h2&gt;&lt;h3 id=&quot;个人理财相关定义&quot;&gt;&lt;a href=&quot;#个人理财相关定义&quot; class=&quot;headerlink&quot; title=&quot;个人理财相关定义&quot;&gt;&lt;/a&gt;个人理财相关定义&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;个人理财定义：在了解、分析客户情况的基础上、根据其人生、财务目标和风险偏好，通过综合有效的管理其资产、债务、收入和支出，实现理财目标的过程。&lt;/li&gt;
+&lt;li&gt;资产管理业务&lt;/li&gt;
+&lt;li&gt;财富管理业务——中高端业务&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="finance" scheme="http://jialicode.github.io/categories/finance/"/>
+    
+    
+    <category term="银行从业" scheme="http://jialicode.github.io/tags/%E9%93%B6%E8%A1%8C%E4%BB%8E%E4%B8%9A/"/>
+    
+    <category term="个人理财" scheme="http://jialicode.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于创建个人站的那些事</title>
-    <link href="http://jialicode.github.io/2023-05-10-starter/"/>
-    <id>http://jialicode.github.io/2023-05-10-starter/</id>
+    <link href="http://jialicode.github.io/2023/05/starter/"/>
+    <id>http://jialicode.github.io/2023/05/starter/</id>
     <published>2023-05-10T02:20:00.000Z</published>
     <updated>2023-05-12T02:03:12.169Z</updated>
     
@@ -39,32 +88,6 @@
     <category term="github" scheme="http://jialicode.github.io/tags/github/"/>
     
     <category term="ayer" scheme="http://jialicode.github.io/tags/ayer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>银行从业资格-个人理财初级</title>
-    <link href="http://jialicode.github.io/2023-05-10-%E9%93%B6%E4%BB%8E-%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
-    <id>http://jialicode.github.io/2023-05-10-%E9%93%B6%E4%BB%8E-%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/</id>
-    <published>2023-05-10T02:20:00.000Z</published>
-    <updated>2023-05-12T02:02:36.273Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;机考120分钟。先做判断题15题15分，再做单选题90题45分，最后做多选题40题40分&lt;/p&gt;
-&lt;h1 id=&quot;第一章-个人理财概述-5分&quot;&gt;&lt;a href=&quot;#第一章-个人理财概述-5分&quot; class=&quot;headerlink&quot; title=&quot;第一章 个人理财概述 5分&quot;&gt;&lt;/a&gt;第一章 个人理财概述 5分&lt;/h1&gt;&lt;h2 id=&quot;1、个人理财相关定义&quot;&gt;&lt;a href=&quot;#1、个人理财相关定义&quot; class=&quot;headerlink&quot; title=&quot;1、个人理财相关定义&quot;&gt;&lt;/a&gt;1、个人理财相关定义&lt;/h2&gt;&lt;h3 id=&quot;个人理财相关定义&quot;&gt;&lt;a href=&quot;#个人理财相关定义&quot; class=&quot;headerlink&quot; title=&quot;个人理财相关定义&quot;&gt;&lt;/a&gt;个人理财相关定义&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;个人理财定义：在了解、分析客户情况的基础上、根据其人生、财务目标和风险偏好，通过综合有效的管理其资产、债务、收入和支出，实现理财目标的过程。&lt;/li&gt;
-&lt;li&gt;资产管理业务&lt;/li&gt;
-&lt;li&gt;财富管理业务——中高端业务&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="finance" scheme="http://jialicode.github.io/categories/finance/"/>
-    
-    
-    <category term="银行从业" scheme="http://jialicode.github.io/tags/%E9%93%B6%E8%A1%8C%E4%BB%8E%E4%B8%9A/"/>
-    
-    <category term="个人理财" scheme="http://jialicode.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
