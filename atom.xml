@@ -6,7 +6,7 @@
   <link href="http://jialicode.github.io/atom.xml" rel="self"/>
   
   <link href="http://jialicode.github.io/"/>
-  <updated>2023-05-10T03:38:49.803Z</updated>
+  <updated>2023-05-12T02:03:12.169Z</updated>
   <id>http://jialicode.github.io/</id>
   
   <author>
@@ -21,17 +21,13 @@
     <link href="http://jialicode.github.io/2023-05-10-starter/"/>
     <id>http://jialicode.github.io/2023-05-10-starter/</id>
     <published>2023-05-10T02:20:00.000Z</published>
-    <updated>2023-05-10T03:38:49.803Z</updated>
+    <updated>2023-05-12T02:03:12.169Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;之前一直有想建个站的想法，曾经买过三年腾讯云，配置复杂，最后闲置了白白浪费钱。&lt;br&gt;偶然发现了竟然还有GithubPage这种免费羊毛&lt;br&gt;虽然无后端，但本着羊毛不薅白不薅的想法，搭一个Blog站来记录自己的人生经历也是合适的。&lt;br&gt;技术栈：</summary>
-        
-      
+&lt;p&gt;之前一直有想建个站的想法，曾经买过三年腾讯云，配置复杂，最后闲置了白白浪费钱。&lt;br&gt;偶然发现了竟然还有GithubPage这种免费羊毛&lt;br&gt;虽然无后端，但本着羊毛不薅白不薅的想法，搭一个Blog站来记录自己的人生经历也是合适的。&lt;br&gt;技术栈：github + hexo + markdown，主题选的Ayer。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;教程链接：&quot;&gt;&lt;a href=&quot;#教程链接：&quot; class=&quot;headerlink&quot; title=&quot;教程链接：&quot;&gt;&lt;/a&gt;教程链接：&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/189fd945f38f/&quot;&gt;注册github并搭建hexo个站&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -43,6 +39,32 @@
     <category term="github" scheme="http://jialicode.github.io/tags/github/"/>
     
     <category term="ayer" scheme="http://jialicode.github.io/tags/ayer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>银行从业资格-个人理财初级</title>
+    <link href="http://jialicode.github.io/2023-05-10-%E9%93%B6%E4%BB%8E-%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
+    <id>http://jialicode.github.io/2023-05-10-%E9%93%B6%E4%BB%8E-%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/</id>
+    <published>2023-05-10T02:20:00.000Z</published>
+    <updated>2023-05-12T02:02:36.273Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;机考120分钟。先做判断题15题15分，再做单选题90题45分，最后做多选题40题40分&lt;/p&gt;
+&lt;h1 id=&quot;第一章-个人理财概述-5分&quot;&gt;&lt;a href=&quot;#第一章-个人理财概述-5分&quot; class=&quot;headerlink&quot; title=&quot;第一章 个人理财概述 5分&quot;&gt;&lt;/a&gt;第一章 个人理财概述 5分&lt;/h1&gt;&lt;h2 id=&quot;1、个人理财相关定义&quot;&gt;&lt;a href=&quot;#1、个人理财相关定义&quot; class=&quot;headerlink&quot; title=&quot;1、个人理财相关定义&quot;&gt;&lt;/a&gt;1、个人理财相关定义&lt;/h2&gt;&lt;h3 id=&quot;个人理财相关定义&quot;&gt;&lt;a href=&quot;#个人理财相关定义&quot; class=&quot;headerlink&quot; title=&quot;个人理财相关定义&quot;&gt;&lt;/a&gt;个人理财相关定义&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;个人理财定义：在了解、分析客户情况的基础上、根据其人生、财务目标和风险偏好，通过综合有效的管理其资产、债务、收入和支出，实现理财目标的过程。&lt;/li&gt;
+&lt;li&gt;资产管理业务&lt;/li&gt;
+&lt;li&gt;财富管理业务——中高端业务&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="finance" scheme="http://jialicode.github.io/categories/finance/"/>
+    
+    
+    <category term="银行从业" scheme="http://jialicode.github.io/tags/%E9%93%B6%E8%A1%8C%E4%BB%8E%E4%B8%9A/"/>
+    
+    <category term="个人理财" scheme="http://jialicode.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
