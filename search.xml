@@ -579,6 +579,264 @@
       </tags>
   </entry>
   <entry>
+    <title>中经基础（四）统计部分</title>
+    <url>/2023/08/%E4%B8%AD%E7%BB%8F%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BB%9F%E8%AE%A1/</url>
+    <content><![CDATA[<h1 id="统计与数据科学"><a href="#统计与数据科学" class="headerlink" title="统计与数据科学"></a>统计与数据科学</h1><h2 id="统计学"><a href="#统计学" class="headerlink" title="统计学"></a>统计学</h2><h3 id="统计学定义"><a href="#统计学定义" class="headerlink" title="统计学定义"></a>统计学定义</h3><p>统计学是一门关于数据的学科，概括来讲，统计学是关于<strong>收集、整理、分析数据和从数据中得出结论</strong>的科学。</p>
+<span id="more"></span>
+<h3 id="统计学两大分支"><a href="#统计学两大分支" class="headerlink" title="统计学两大分支"></a>统计学两大分支</h3><ul>
+<li>描述统计。研究<strong>数据收集、整理和描述</strong>的统计方法。其内容包括：<ol>
+<li>如何<strong>取得</strong>所需要的数据</li>
+<li>如何用图表或数学方法对数据进行<strong>整理和展示</strong></li>
+<li>如何<strong>描述</strong>数据的一般特征</li>
+</ol>
+</li>
+<li>推断统计。研究如何<strong>利用样本数据推断总体特征</strong>的统计方法。其内容包括：<ol>
+<li><strong>参数估计</strong>：利用样本数据推断总体特征</li>
+<li><strong>假设检验</strong>：利用样本信息判断对总体假设是否成立</li>
+</ol>
+</li>
+</ul>
+<h2 id="变量和数据"><a href="#变量和数据" class="headerlink" title="变量和数据"></a>变量和数据</h2><ul>
+<li>变量是研究对象的属性或特征。变量可以有两个或者更多个可能的取值<ul>
+<li>定量变量。变量的取值是<strong>数值</strong>。</li>
+<li>定性变量<ul>
+<li>分类变量。变量的取值是<strong>类别</strong>。</li>
+<li>顺序变量。变量是取值是<strong>类别且有顺序</strong>。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>数据是对变量进行<strong>测量、观测的结果</strong>。可以是数值、文字、或者图像等形式。<ul>
+<li>定量数据。取值表现为<strong>具体的数值</strong></li>
+<li>分类数据。表现为<strong>类别</strong>，一般用<strong>文字</strong>表述，也可以用<strong>数字</strong>描述</li>
+<li>顺序数据。表现为<strong>类别</strong>，一般用<strong>文字</strong>表述，也可以用<strong>数字</strong>描述<br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230804164510.png" alt="20230804164510"></li>
+</ul>
+</li>
+</ul>
+<h2 id="数据的来源"><a href="#数据的来源" class="headerlink" title="数据的来源"></a>数据的来源</h2><ul>
+<li>按收集方法<ul>
+<li>观测数据。通过直接<strong>调查或测量</strong>而收集的数据。几乎所有与社会经济现象有关的统计数据都是观测数据，如GDP、CPI、房价等。</li>
+<li>实验数据。通过在<strong>实验</strong>中控制实验对象以及其所处的实验环境收集到的数据。自然科学领域的数据大都是实验数据。</li>
+</ul>
+</li>
+<li>从使用者角度<ul>
+<li>一手数据。来源于<strong>直接的</strong>调查和科学实验的数据，主要有<strong>调查或观察、实验</strong></li>
+<li>二手数据。来源于<strong>别人的调查或实验的数据</strong>。</li>
+</ul>
+</li>
+</ul>
+<h2 id="统计调查"><a href="#统计调查" class="headerlink" title="统计调查"></a>统计调查</h2><h3 id="统计调查的分类"><a href="#统计调查的分类" class="headerlink" title="统计调查的分类"></a>统计调查的分类</h3><ul>
+<li>按调查对象的范围不同<ul>
+<li>全面调查。对构成对象的所有单位进行逐一的、无一遗漏的调查，包括<strong>全面统计报表、普查</strong>。<ul>
+<li>人口普查：对全国人口无一例外进行登记调查</li>
+<li>经济普查：对象是中华人民共和国境内从事<strong>第二、第三产业</strong>活动的全部<strong>法人单位、产业活动单位</strong>和<strong>个体经营户</strong>。</li>
+</ul>
+</li>
+<li>非全面调查。对调查对象中的<strong>一部分单位</strong>进行调查。包括：<strong>非全面统计报表、抽样调查、重点调查和典型调查</strong></li>
+</ul>
+</li>
+<li>按调查登记的时间是否连续<ul>
+<li>连续调查。观察总体现象<strong>在一定时期内的数量变化</strong>，说明现象的发展过程，目的是为了解社会现象在一段时期的总量。如<strong>工厂的产品生产、原材料的投入、能源的消耗、人口的出生、死亡</strong>等。</li>
+<li>不连续调查。间隔相当长的时间（通常一年以上）所作的调查，为了<strong>对总体现象在一定时点上的状态</strong>进行研究。如<strong>生产设备拥有量、耕地面积等</strong>。</li>
+</ul>
+</li>
+</ul>
+<h3 id="统计调查的方式"><a href="#统计调查的方式" class="headerlink" title="统计调查的方式"></a>统计调查的方式</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230804180238.png" alt="20230804180238"><br><a href="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230804180346.png">20230804180346</a></p>
+<h2 id="数据科学与大数据"><a href="#数据科学与大数据" class="headerlink" title="数据科学与大数据"></a>数据科学与大数据</h2><h3 id="数据科学"><a href="#数据科学" class="headerlink" title="数据科学"></a>数据科学</h3><ul>
+<li>数据科学最早是由丹麦的计算机科学领域先驱<strong>彼得诺尔</strong>提出。</li>
+<li>含义：是一门通过系统性<strong>研究获取与数据相关的知识体系</strong>的学科。</li>
+<li>研究对象：数据。数据-&gt;信息-&gt;知识，包含对数据进行采集、存储、处理、分析、表现等一系列活动。</li>
+<li>研究目标：获得洞察力和理解力，通过对数据的分析，来解释、预测、洞见和决策，为现实世界服务。</li>
+<li>涉及领域：统计学、机器科学、计算机科学、可视化、人工智能、领域知识等。</li>
+</ul>
+<h3 id="大数据"><a href="#大数据" class="headerlink" title="大数据"></a>大数据</h3><ul>
+<li>大数据是指无法在一定时间范围内用常规软件工具进行捕捉、管理和处理的数据集合，是需要新处理模式才能具有更强的决策力、洞察发现力和流程优化能力的<strong>海量、高增长率和多样化的信息资产</strong>。</li>
+<li>4V<ul>
+<li>数据量大 Volume————<strong>起始计量单位PB&#x3D;1024TB</strong></li>
+<li>数据多样性 Variety<ul>
+<li>结构化数据。存在数据库里，可以用<strong>二维表结构</strong>实现表达的数据</li>
+<li>半结构化数据。具有一定的结构性，如<strong>员工简历</strong></li>
+<li>非结构化数据。指数据结构不规则或不完整，包括所有格式的<strong>办公文档、文本、图片、报表、图像、音频信息、视频信息</strong></li>
+</ul>
+</li>
+<li>价值密度低 Value。大数据价值密度低高低与数据总量的大小<strong>成反比</strong></li>
+<li>数据产生和处理速度快 Velocity。 大数据的处理要符合“1秒定律”</li>
+</ul>
+</li>
+</ul>
+<h3 id="数据挖掘"><a href="#数据挖掘" class="headerlink" title="数据挖掘"></a>数据挖掘</h3><ul>
+<li>含义：从<strong>大量的、不完全的、有噪声的、模糊的、随机的</strong>实际应用数据中，提取隐藏在其中但有潜在价值的信息和知识的过程。</li>
+<li>常用的算法：<ul>
+<li>分类：确定目标对象<strong>属于哪个预定类别</strong>，以实现对未来潜在的预测需求，属于“监督学习”。<strong>决策树分类法、贝叶斯分类法、关联分类法、支持向量机、神经网络</strong>等。</li>
+<li>聚类分析：把一组数据按照差异性和相似性分为几个类别，使得<strong>同类的数据相似性尽量大，不同类的数据相似性尽可能小，跨类的数据关联性尽可能低</strong>，属于“非监督学习”，其要划分的类是未知的。<strong>基于划分的方法、基于分层的方法、基于密度的方法、基于网格的方法和基于模型的方法</strong></li>
+<li>关联分析：是对数据集中<strong>反复出现的相关关系和关联性</strong>进行挖掘提取，从而可以<strong>根据一个数据项的出现预测其他数据项</strong>的出现。<strong>购物篮分析</strong></li>
+<li>趋势和演化分析。包括数据变化趋势、序列模式分析、周期性分析以及相似程度分析等内容。统计学的回归分析方法经常用于这类问题的分析。</li>
+<li>其他分析方法，如特征分析、异常分析。</li>
+</ul>
+</li>
+</ul>
+<h3 id="数据可视化"><a href="#数据可视化" class="headerlink" title="数据可视化"></a>数据可视化</h3><ul>
+<li>含义：借助图形化手段清晰有效地传达与沟通信息。</li>
+<li>优势：在于简单，表现清晰。利用人对形状、颜色、运动的敏感，有效传递信息，帮助用户从数据中发现关系、规律和趋势。</li>
+<li>科学可视化：<strong>面向科学与工程领域的数据</strong>。重点探索以几何、拓扑和形状特征来呈现数据中的规律</li>
+<li>信息可视化：处理对象是非结构化、非几何的抽象数据，如金融交易、社交网络和文本数据。</li>
+</ul>
+<h1 id="描述统计"><a href="#描述统计" class="headerlink" title="描述统计"></a>描述统计</h1><h2 id="集中趋势"><a href="#集中趋势" class="headerlink" title="集中趋势"></a>集中趋势</h2><p>是指一组数据向某一中心值靠拢的程度。集中趋势的测度就是寻找数据一般水平的代表值或中心值。</p>
+<ul>
+<li>均值：平均数。<strong>最主要的测度值，适用于数值型数据，不适用于分类数据和顺序数据</strong>，易受极端值影响。</li>
+<li>中位数：把一组数据按从小到大或从大到小的顺序进行排列，位置居中的数值叫做中位数。奇位数取中值，偶位数取中间两者的<strong>均值</strong>。适用于<strong>顺序数据和数值型数据，不适用于分类数据</strong>，不受极端值影响，抗干扰性强，适用于收入这类偏斜分布的数值型数据。</li>
+<li>众数：指一组数据中出现次数（频数）最多的变量值。众数适于描述<strong>分类数据和顺序数据的集中趋势</strong>。<br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230807112740.png" alt="20230807112740"></li>
+</ul>
+<h2 id="离散程度"><a href="#离散程度" class="headerlink" title="离散程度"></a>离散程度</h2><p>离散程度反映的是数据之间的差异程度。<strong>数据的离散程度越大，集中趋势的测度值对该组数据的代表性就越差。</strong><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230807113203.png" alt="20230807113203"></p>
+<h2 id="分布形态"><a href="#分布形态" class="headerlink" title="分布形态"></a>分布形态</h2><ul>
+<li>偏态系数<ul>
+<li>偏度：数据分布的偏斜方向和程度，描述的是数据分布对称程度。</li>
+<li>偏态系数：测度数据分布偏度的统计量，取决于<strong>离差三次方的平均数与标准差三次方的比值</strong><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808164152.png" alt="20230808164152"></li>
+</ul>
+</li>
+<li>标准分数————“Z”分数<ul>
+<li>在统计上，均值和标准差不同时，不同变量的数值是不能比较的，来自不同分布的变量值不可比，但是每个数值在变量分布中相对于均值的相对位置是可比的，因此可以通过计算标准分数来比较不同变量的取值。标准分数可以给出数值距离均值的相对位置。</li>
+<li>当数据服从<strong>对称的钟形分布（正态分布）</strong>时，可以运用经验法则来判断与均值的距离在特定倍数标准差之内的数据项所占比例。<br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808164803.png" alt="20230808164803"></li>
+</ul>
+</li>
+</ul>
+<h2 id="变量间的相关分析"><a href="#变量间的相关分析" class="headerlink" title="变量间的相关分析"></a>变量间的相关分析</h2><h3 id="变量间的相关关系————相关关系不等于因果关系"><a href="#变量间的相关关系————相关关系不等于因果关系" class="headerlink" title="变量间的相关关系————相关关系不等于因果关系"></a>变量间的相关关系————相关关系不等于因果关系</h3><ul>
+<li>相关的<strong>程度</strong><ul>
+<li>完全相关：一个变量的取值变化完全由另一个变量的取值变化所确定。</li>
+<li>不完全相关</li>
+<li>不相关</li>
+</ul>
+</li>
+<li>相关的<strong>方向</strong><ul>
+<li>正相关：两个变量<strong>同方向</strong>变化</li>
+<li>负相关：两个变量<strong>反方向</strong>变化</li>
+</ul>
+</li>
+<li>相关的<strong>形式</strong><ul>
+<li>线性相关</li>
+<li>非线性相关</li>
+</ul>
+</li>
+</ul>
+<h3 id="相关关系的度量"><a href="#相关关系的度量" class="headerlink" title="相关关系的度量"></a>相关关系的度量</h3><ul>
+<li>散点图</li>
+<li>相关系数。最常用的相关系数是<strong>Pearson皮尔逊系数</strong>，相关系数的取值范围在[-1,1]之间。<br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808170115.png" alt="20230808170115"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808170209.png" alt="20230808170209"></li>
+</ul>
+<h1 id="抽样调查"><a href="#抽样调查" class="headerlink" title="抽样调查"></a>抽样调查</h1><h2 id="抽样调查基本概念"><a href="#抽样调查基本概念" class="headerlink" title="抽样调查基本概念"></a>抽样调查基本概念</h2><h3 id="抽样调查-1"><a href="#抽样调查-1" class="headerlink" title="抽样调查"></a>抽样调查</h3><p>抽样调查是使用频率最高的一种调查方式。抽样调查是指按照某种原则和程序，从总体中抽取一部分单位，通过对这一部分单位进行调查得到信息，以达到对总体情况的了解，或者对总体的有关参数进行估计。</p>
+<ul>
+<li>总体。调查对象的全体。</li>
+<li>样本。由从总体中按一定原则或程序抽出的部分个体所组成。</li>
+<li>总体参数。总体指标值，是<strong>根据总体中所有单位的数值计算的</strong>，是通过调查想要了解的，<strong>不受样本的抽选结果影响</strong>。</li>
+<li>样本统计量。是根据样本中各单位的数值计算的，是对总体参数的估计，也称估计量。</li>
+<li>抽样框。<strong>供抽样所用的所有抽样单元的名单</strong></li>
+</ul>
+<h3 id="概率抽样和非概率抽样"><a href="#概率抽样和非概率抽样" class="headerlink" title="概率抽样和非概率抽样"></a>概率抽样和非概率抽样</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808172607.png" alt="20230808172607"></p>
+<h3 id="抽样调查的一般步骤"><a href="#抽样调查的一般步骤" class="headerlink" title="抽样调查的一般步骤"></a>抽样调查的一般步骤</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808172829.png" alt="20230808172829"></p>
+<h3 id="抽样误差与非抽样误差"><a href="#抽样误差与非抽样误差" class="headerlink" title="抽样误差与非抽样误差"></a>抽样误差与非抽样误差</h3><ul>
+<li>样本估计值和总体参数值之间的差异称为<strong>误差</strong>。</li>
+<li>抽样误差：由抽样的<strong>随机性</strong>造成的，用样本统计量估计总体参数时出现的误差。</li>
+<li>非抽样误差————除抽样误差外，由其他原因引起的样本统计量与总体真值之间的差异：<ul>
+<li>抽样框误差：样本框不完善造成的</li>
+<li>无回答误差：调查人员没能够从被调查者那里得到所需要的数据。<strong>不在家或拒绝回答</strong></li>
+<li>计量误差：由于调查所获得的数据与其真值之间不一致造成的误差。</li>
+</ul>
+</li>
+</ul>
+<h2 id="几种概率抽样方法"><a href="#几种概率抽样方法" class="headerlink" title="几种概率抽样方法"></a>几种概率抽样方法</h2><h3 id="简单随机抽样"><a href="#简单随机抽样" class="headerlink" title="简单随机抽样"></a>简单随机抽样</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808175539.png" alt="20230808175539"></p>
+<h3 id="分层抽样"><a href="#分层抽样" class="headerlink" title="分层抽样"></a>分层抽样</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808175701.png" alt="20230808175701"></p>
+<h3 id="系统抽样（等距抽样）"><a href="#系统抽样（等距抽样）" class="headerlink" title="系统抽样（等距抽样）"></a>系统抽样（等距抽样）</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808175915.png" alt="20230808175915"></p>
+<h3 id="整群抽样"><a href="#整群抽样" class="headerlink" title="整群抽样"></a>整群抽样</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808180104.png" alt="20230808180104"></p>
+<h3 id="多阶段抽样"><a href="#多阶段抽样" class="headerlink" title="多阶段抽样"></a>多阶段抽样</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230808180206.png" alt="20230808180206"></p>
+<h2 id="估计量和样本量"><a href="#估计量和样本量" class="headerlink" title="估计量和样本量"></a>估计量和样本量</h2><h3 id="估计量的性质————“一无所有”"><a href="#估计量的性质————“一无所有”" class="headerlink" title="估计量的性质————“一无所有”"></a>估计量的性质————“一无所有”</h3><ul>
+<li>一致性。随着样本量的增大，估计量的值如果<strong>稳定</strong>于总体参数的真值，这个估计量就有一致性，也称为一致估计量。</li>
+<li>无偏性。对于不放回简单随机抽样，所有可能的样本均值取值的平均值<strong>总等于</strong>总体均值</li>
+<li>有效性。<strong>越密集</strong>越有效，方差越小。</li>
+</ul>
+<h3 id="抽样误差的估计"><a href="#抽样误差的估计" class="headerlink" title="抽样误差的估计"></a>抽样误差的估计</h3><p>抽样误差无法避免，但可以计算<br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809103435.png" alt="20230809103435"><br>影响抽样误差的因素：</p>
+<ol>
+<li>抽样误差与<strong>总体分布</strong>有关，总体方差越大，抽样误差越大</li>
+<li>抽样误差与<strong>样本量n</strong>有关，样本量越大，抽样误差越小</li>
+<li>抽样误差与<strong>抽样方式和估计量的选择</strong>有关，分层抽样的估计量误差一般小于简单随机抽样</li>
+<li>利用<strong>有效辅助信息的估计量</strong>也可以有效地减小误差。</li>
+</ol>
+<h3 id="样本量的影响因素"><a href="#样本量的影响因素" class="headerlink" title="样本量的影响因素"></a>样本量的影响因素</h3><ul>
+<li>调查的精度。调查的精度是指用样本数据对总体进行估计时<strong>可以接受的误差水平</strong>，要求的调查精度越高，所需要的样本量就越大</li>
+<li>总体的离散程度。总体方差越大，需要的样本量越大</li>
+<li>总体的规模。对于大规模的总体，总体规模对样本量的需求几乎没有影响；小规模的总体，总体规模越大，样本量也要随之增大</li>
+<li>无回答的情况。无回答率较大。样本量增大</li>
+<li>经费的制约。经费越少样本量越小</li>
+<li>其他因素。如调查的限定时间，实施调查的人力资源等。</li>
+</ul>
+<h1 id="回归分析"><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h1><ul>
+<li>回归分析就是根据<strong>相关关系的具体形态</strong>，选择一个合适的<strong>数学模型</strong>，来<strong>近似的表达变量间的依赖关系</strong>。</li>
+<li>回归分析中，被预测或被解释的变量称为因变量用Y表示；用来预测或解释因变量的变量称为自变量，一般用X表示。</li>
+<li>回归分析与相关分析<ul>
+<li>联系<ul>
+<li>他们具有共同的研究对象</li>
+<li>常常互相补充</li>
+<li>相关分析需要依靠回归分析来表明现象数量相关的具体形式，而回归分析则需要依靠相关分析来表明现象数量变化的相关程度。<strong>只有高度相关时，进行回归分析寻求其相关的具体形式才有意义</strong>。</li>
+</ul>
+</li>
+<li>区别<ul>
+<li>相关分析研究变量之间相关的方向和相关的程度</li>
+<li>回归分析是研究变量之间相关关系的具体形式，它对具有相关关系的变量之间的数量联系进行测定，确定相关的数学方程式，根据这个数学方程式可以从已知量来推测未知量，从而为估算和预测提供了一个重要方法</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="回归模型————描述因变量如何依赖自变量和误差项的方程"><a href="#回归模型————描述因变量如何依赖自变量和误差项的方程" class="headerlink" title="回归模型————描述因变量如何依赖自变量和误差项的方程"></a>回归模型————描述因变量如何依赖自变量和误差项的方程</h2><ul>
+<li>根据<strong>自变量</strong>的多少，回归模型可以分为<strong>一元回归模型</strong>和<strong>多元回归模型</strong></li>
+<li>根据回归模型是否线性，回归模型分为<strong>线性回归模型</strong>和<strong>非线性回归模型</strong></li>
+</ul>
+<h3 id="一元线性回归模型"><a href="#一元线性回归模型" class="headerlink" title="一元线性回归模型"></a>一元线性回归模型</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809105701.png" alt="20230809105701"></p>
+<h2 id="最小二乘法"><a href="#最小二乘法" class="headerlink" title="最小二乘法"></a>最小二乘法</h2><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809113157.png" alt="20230809113157"></p>
+<h2 id="模型的检验和预测"><a href="#模型的检验和预测" class="headerlink" title="模型的检验和预测"></a>模型的检验和预测</h2><h3 id="回归模型的拟合效果分析"><a href="#回归模型的拟合效果分析" class="headerlink" title="回归模型的拟合效果分析"></a>回归模型的拟合效果分析</h3><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809113501.png" alt="20230809113501"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809113734.png" alt="20230809113734"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809113839.png" alt="20230809113839"></p>
+<h1 id="时间序列分析"><a href="#时间序列分析" class="headerlink" title="时间序列分析"></a>时间序列分析</h1><p>统计对事物进行<strong>动态研究</strong>的基本方法是编制时间序列。</p>
+<h2 id="时间序列及其分类"><a href="#时间序列及其分类" class="headerlink" title="时间序列及其分类"></a>时间序列及其分类</h2><ul>
+<li>含义：时间序列又叫动态数列，是将<strong>某一统计指标在各个不同时间上的数值按时间先后顺序</strong>编制形成的序列。</li>
+<li>构成要素：<ul>
+<li>被研究现象<strong>所属时间</strong></li>
+<li>反映该现象一定时间条件下数量特征的<strong>指标值</strong>。同一时间序列中，各指标值的时间单位一般要求相等，可以是年、季、月、日。</li>
+</ul>
+</li>
+<li>按照其构成要素中统计指标值的表现形式，分为：<ul>
+<li>绝对数时间序列<ul>
+<li>时期序列：反映现象在<strong>一定时期内</strong>发展的结果，是<strong>过程总量</strong>，如国内生产总值时间序列</li>
+<li>时点序列：反映现象在<strong>一定时点上的瞬间水平</strong>，如年末总人口时间序列</li>
+</ul>
+</li>
+<li>相对数时间序列：统计指标值上相对数。如城镇人口比重时间序列</li>
+<li>平均数时间序列：统计指标值是平均数。如人均国内生产总值序列</li>
+</ul>
+</li>
+</ul>
+<h2 id="平均发展水平"><a href="#平均发展水平" class="headerlink" title="平均发展水平"></a>平均发展水平</h2><ul>
+<li>发展水平：发展水平是时间序列中对应于具体时间的指标数值。</li>
+<li>最初水平：时间序列中第一项的指标值称为最初水平</li>
+<li>最末水平：最末项的指标值称为最末水平</li>
+<li>中间水平：处于二者之间的各期指标值则称为中间水平</li>
+<li>基期水平：是作为对比的基础时期的水平；</li>
+<li>报告期水平：是所要反映与研究的那一时期的水平。</li>
+<li><strong>平均发展水平</strong>：也称序时平均数或动态平均数，是对时间序列中各时期发展水平计算的平均数，它可以概括性描述现象在一段时期内所达到的一般水平。</li>
+<li><strong>间断相等的间断时点序列序时平均数</strong>的计算思想是“<strong>两次平均</strong>”：先求各个时间间隔内的平均数，再对这些平均数进行简单算术平均。</li>
+<li><strong>间隔不相等的间断时点序列序时平均数</strong>计算也采用“<strong>两次平均</strong>”的思路，且第一次的平均计算与间隔相等的间断序列相同；进行第二次平均时，由于各间隔不相等，所以应当用间隔长度作为权数，计算加权算术平均数。</li>
+<li>相对数或平均数时间序列是派生数列，相对数或平均数通常是由两个绝对数对比形成的。计算思路：分别求出分子指标和分母指标时间序列的序时平均数，然后再进行对比。</li>
+<li>增长量与平均增长量<br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809164730.png" alt="20230809164730"></li>
+</ul>
+<h2 id="时间序列的速度分析"><a href="#时间序列的速度分析" class="headerlink" title="时间序列的速度分析"></a>时间序列的速度分析</h2><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809174531.png" alt="20230809174531"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809175324.png" alt="20230809175324"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809175510.png" alt="20230809175510"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809175752.png" alt="20230809175752"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809180103.png" alt="20230809180103"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809181054.png" alt="20230809181054"></p>
+<h2 id="平滑预测法"><a href="#平滑预测法" class="headerlink" title="平滑预测法"></a>平滑预测法</h2><p><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809181400.png" alt="20230809181400"><br><img src="https://cdn.jsdelivr.net/gh/jialicode/images@main/20230809182017.png" alt="20230809182017"></p>
+]]></content>
+      <categories>
+        <category>finance</category>
+      </categories>
+      <tags>
+        <tag>中级经济师</tag>
+        <tag>经济基础</tag>
+        <tag>统计</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>银行从业资格-法律法规初级</title>
     <url>/2023/05/%E9%93%B6%E4%BB%8E-%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/</url>
     <content><![CDATA[<h1 id="第一部分-经济金融基础"><a href="#第一部分-经济金融基础" class="headerlink" title="第一部分 经济金融基础"></a>第一部分 经济金融基础</h1><h2 id="一、经济基础知识"><a href="#一、经济基础知识" class="headerlink" title="一、经济基础知识"></a>一、经济基础知识</h2><h3 id="宏观经济分析"><a href="#宏观经济分析" class="headerlink" title="宏观经济分析"></a>宏观经济分析</h3><ul>
@@ -1035,6 +1293,7 @@
     <title>中经基础（五）会计部分</title>
     <url>/2023/07/%E4%B8%AD%E7%BB%8F%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%E4%BC%9A%E8%AE%A1/</url>
     <content><![CDATA[<h1 id="会计概论"><a href="#会计概论" class="headerlink" title="会计概论"></a>会计概论</h1><h2 id="会计基本概念"><a href="#会计基本概念" class="headerlink" title="会计基本概念"></a>会计基本概念</h2><p>会计是以<strong>货币</strong>伟计量单位，采用<strong>专门的技术方法</strong>，对单位的<strong>全部资金运动</strong>进行<strong>核算和监督</strong>的一种经济管理活动，它通过系统、客观、及时地对单位的经济活动进行<strong>确认、计量和报告</strong>来为管理者<strong>提供决策信息</strong>。</p>
+<span id="more"></span>
 <h3 id="现代会计2大分支"><a href="#现代会计2大分支" class="headerlink" title="现代会计2大分支"></a>现代会计2大分支</h3><p>现代会计以<strong>企业会计</strong>为核心</p>
 <ul>
 <li>财务会计<ul>

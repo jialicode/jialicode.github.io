@@ -6,7 +6,7 @@
   <link href="http://jialicode.github.io/atom.xml" rel="self"/>
   
   <link href="http://jialicode.github.io/"/>
-  <updated>2023-08-01T09:08:52.287Z</updated>
+  <updated>2023-08-09T10:20:22.065Z</updated>
   <id>http://jialicode.github.io/</id>
   
   <author>
@@ -17,20 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>中经基础（四）统计部分</title>
+    <link href="http://jialicode.github.io/2023/08/%E4%B8%AD%E7%BB%8F%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BB%9F%E8%AE%A1/"/>
+    <id>http://jialicode.github.io/2023/08/%E4%B8%AD%E7%BB%8F%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BB%9F%E8%AE%A1/</id>
+    <published>2023-08-15T02:00:00.000Z</published>
+    <updated>2023-08-09T10:20:22.065Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;统计与数据科学&quot;&gt;&lt;a href=&quot;#统计与数据科学&quot; class=&quot;headerlink&quot; title=&quot;统计与数据科学&quot;&gt;&lt;/a&gt;统计与数据科学&lt;/h1&gt;&lt;h2 id=&quot;统计学&quot;&gt;&lt;a href=&quot;#统计学&quot; class=&quot;headerlink&quot; title=&quot;统计学&quot;&gt;&lt;/a&gt;统计学&lt;/h2&gt;&lt;h3 id=&quot;统计学定义&quot;&gt;&lt;a href=&quot;#统计学定义&quot; class=&quot;headerlink&quot; title=&quot;统计学定义&quot;&gt;&lt;/a&gt;统计学定义&lt;/h3&gt;&lt;p&gt;统计学是一门关于数据的学科，概括来讲，统计学是关于&lt;strong&gt;收集、整理、分析数据和从数据中得出结论&lt;/strong&gt;的科学。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="finance" scheme="http://jialicode.github.io/categories/finance/"/>
+    
+    
+    <category term="中级经济师" scheme="http://jialicode.github.io/tags/%E4%B8%AD%E7%BA%A7%E7%BB%8F%E6%B5%8E%E5%B8%88/"/>
+    
+    <category term="经济基础" scheme="http://jialicode.github.io/tags/%E7%BB%8F%E6%B5%8E%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="统计" scheme="http://jialicode.github.io/tags/%E7%BB%9F%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>中经基础（五）会计部分</title>
     <link href="http://jialicode.github.io/2023/07/%E4%B8%AD%E7%BB%8F%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%E4%BC%9A%E8%AE%A1/"/>
     <id>http://jialicode.github.io/2023/07/%E4%B8%AD%E7%BB%8F%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%E4%BC%9A%E8%AE%A1/</id>
     <published>2023-07-31T02:00:00.000Z</published>
-    <updated>2023-08-01T09:08:52.287Z</updated>
+    <updated>2023-08-03T02:13:28.255Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;会计概论&quot;&gt;&lt;a href=&quot;#会计概论&quot; class=&quot;headerlink&quot; title=&quot;会计概论&quot;&gt;&lt;/a&gt;会计概论&lt;/h1&gt;&lt;h2 id=&quot;会计基本概念&quot;&gt;&lt;a href=&quot;#会计基本概念&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;会计概论&quot;&gt;&lt;a href=&quot;#会计概论&quot; class=&quot;headerlink&quot; title=&quot;会计概论&quot;&gt;&lt;/a&gt;会计概论&lt;/h1&gt;&lt;h2 id=&quot;会计基本概念&quot;&gt;&lt;a href=&quot;#会计基本概念&quot; class=&quot;headerlink&quot; title=&quot;会计基本概念&quot;&gt;&lt;/a&gt;会计基本概念&lt;/h2&gt;&lt;p&gt;会计是以&lt;strong&gt;货币&lt;/strong&gt;伟计量单位，采用&lt;strong&gt;专门的技术方法&lt;/strong&gt;，对单位的&lt;strong&gt;全部资金运动&lt;/strong&gt;进行&lt;strong&gt;核算和监督&lt;/strong&gt;的一种经济管理活动，它通过系统、客观、及时地对单位的经济活动进行&lt;strong&gt;确认、计量和报告&lt;/strong&gt;来为管理者&lt;strong&gt;提供决策信息&lt;/strong&gt;。&lt;/p&gt;</summary>
     
     
     
